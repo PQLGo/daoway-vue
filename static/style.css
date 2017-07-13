@@ -1,0 +1,59 @@
+body, html {
+  
+  height: 100%
+  
+}
+body {
+  
+  color: #333;
+  
+  font: 14px/1.14 "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", tahoma, arial, simsun, "宋体"
+  
+}
+
+
+a, a:focus, a:hover {
+  
+  text-decoration: none
+  
+}
+
+@media (max-width: 1024px) and (min-width: 768px){/*横屏的平板*/
+  body{width: 1200px}
+}
+
+a { color: #fff;  -webkit-transition: color .5s;  -moz-transition: color .5s;  -o-transition: color .5s;  -ms-transition: color .5s;  transition: color .5s  }
+
+.h1.fancy, .h2.fancy, .h3.fancy, .h4.fancy, .h5.fancy, .h6.fancy, h1.fancy, h2.fancy, h3.fancy, h4.fancy, h5.fancy, h6.fancy {  font-family: dancing_scriptbold, Verdana, sans-serif  }
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {font-family: latobold, Verdana, sans-serif; line-height: 1.1}
+.h1, .h2, .h3, h1, h2, h3 { /*margin:0 0 20px*/ font-weight: 600;}
+.h4, .h5, .h6, h4, h5, h6 {margin: 0 0 10px}
+ol, p, ul {margin: 0 0 1.5em}
+.h1, h1 { font-size: 3.8em}
+.h2, h2 {font-size: 3em}
+ol, ul {padding: 0;list-style-type: none  }
+.list-style {padding-left: 1.5em}
+.list-style.list-disc {list-style-type: disc}
+.list-style.list-circle {list-style-type: circle}
+.list-style.list-square {list-style-type: square}
+.list-style.list-decimal {list-style-type: decimal}
+.list-style.list-lower-alpha {list-style-type: lower-alpha}
+
+
+
+.list-style.list-upper-alpha {
+  
+  list-style-type: upper-alpha
+  
+}
+
+
+
+.list-style.list-lower-roman {
+  
+  list-style-type: lower-roman
+  
+}
+.active{
+  color:red;
+}
